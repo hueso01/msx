@@ -1,18 +1,68 @@
 {
-  "name": "Mi Canal de Videos",
-  "version": "1.0.0",
-  "headline": "Bienvenido",
-  "background": "https://via.placeholder.com/1920x1080/1e1e1e/ffffff?text=Background",
-  "menu": [
-    {
-      "label": "Videos en Vivo",
-      "icon": "live-tv",
-      "data": "http://tuservidor.com/msx/data/videos.json"
-    },
-    {
-      "label": "Acerca de",
-      "icon": "info",
-      "action": "info:Creado con Media Station X"
-    }
-  ]
+    "headline": "My Example Content",
+    "menu": [{
+            "icon": "movie",
+            "label": "My Example Movies",
+            "data": {
+                "type": "pages",               
+                "template": {                  
+                    "type": "separate",
+                    "layout": "0,0,2,4",
+                    "icon": "msx-white-soft:movie",
+                    "color": "msx-glass"                    
+                },
+                "items": [{
+                        "title": "Video 1",                        
+                        "action": "video:https://prrwla1.netlify.app/api/direct?code=xdxd&redir=1&url=https://hglink.to/e/ijip15vb5sds"
+                    }, {
+                        "title": "Video 2",                       
+                        "action": "video:plugin:https://msx.benzac.de/plugins/videojs.html?url=https://prrwla1.netlify.app/api/direct?code=xdxd&redir=1&url=https://hglink.to/e/ijip15vb5sds"
+                    }, {
+                        "title": "Video 3",                       
+                        "action": "video:http://msx.benzac.de/media/video3.mp4"
+                    }]
+            }
+        }, {
+            "icon": "music-note",
+            "label": "My Example Audios",
+            "data": {
+                "type": "pages",
+                "template": {                   
+                    "type": "separate",
+                    "layout": "0,0,2,3",
+                    "icon": "msx-white-soft:music-note",
+                    "color": "msx-glass"
+                },
+                "items": [{
+                        "title": "Audio 1",
+                        "action": "audio:http://msx.benzac.de/media/audio1.mp3"
+                    }, {
+                        "title": "Audio 2",                          
+                        "action": "audio:http://msx.benzac.de/media/audio2.mp3"
+                    }, {
+                        "title": "Audio 3",
+                        "action": "audio:http://msx.benzac.de/media/audio3.mp3"
+                    }]
+            }
+        }, {
+            "icon": "image",
+            "label": "My Example Images",
+            "data": {
+                "type": "pages",
+                "template": {
+                    "type": "default",
+                    "layout": "0,0,3,2",
+                    "color": "msx-glass",
+                    "imageFiller": "cover",
+                    "action": "image:context"
+                },
+                "items": [{
+                        "image": "http://msx.benzac.de/img/bg1.jpg"                      
+                    }, {
+                        "image": "http://msx.benzac.de/img/bg2.jpg"                       
+                    }, {
+                        "image": "http://msx.benzac.de/img/bg3.jpg"                       
+                    }]
+            }
+        }]
 }
