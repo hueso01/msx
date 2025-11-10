@@ -19,7 +19,7 @@
             "badge": "{txt:msx-white:Html5}",
             "badgeColor": "#000000",
             "title": "Example Video",
-            "action": "video:plugin:http://msx.benzac.de/plugins/html5.html?url=hhttps://prrwla1.netlify.app/api/direct?code=xdxd&redir=1&url=https://hglink.to/e/ijip15vb5sds#.m3u8"
+            "action": "video:plugin:http://msx.benzac.de/plugins/html5.html?url=https%3A%2F%2Fprrwla1.netlify.app%2Fapi%2Fdirect%3Fcode%3Dxdxd%26redir%3D1%26url%3Dhttps%3A%2F%2Fhglink.to%2Fe%2Fijip15vb5sds"
         }, {
             "badge": "{txt:msx-white:YouTube}",
             "badgeColor": "#ff0000",
@@ -31,13 +31,13 @@
             "badgeColor": "#1ab7ea",
             "title": "Example Video",
             "playerLabel": "VIDEOJS - Example Video",
-            "action": "video:plugin:http://msx.benzac.de/plugins/videojs.html?url=https://prrwla1.netlify.app/api/direct?code=xdxd&redir=1&url=https://hglink.to/e/ijip15vb5sds#.m3u8"
+            "action": "video:plugin:http://msx.benzac.de/plugins/videojs.html?url=https%3A%2F%2Fprrwla1.netlify.app%2Fapi%2Fdirect%3Fcode%3Dxdxd%26redir%3D1%26url%3Dhttps%3A%2F%2Fhglink.to%2Fe%2Fijip15vb5sds"
         }, {
             "badge": "{txt:msx-white:Dailymotion}",
             "badgeColor": "#00aaff",
             "title": "Example Video",
             "playerLabel": "HLS - Example Video",
-            "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=https://prrwla1.netlify.app/api/direct?code=xdxd&redir=1&url=https://hglink.to/e/ijip15vb5sds#.m3u8"
+            "action": "video:plugin:http://msx.benzac.de/plugins/hls.html?url=https%3A%2F%2Fprrwla1.netlify.app%2Fapi%2Fdirect%3Fcode%3Dxdxd%26redir%3D1%26url%3Dhttps%3A%2F%2Fhglink.to%2Fe%2Fijip15vb5sds"
         }, {
             "badge": "{txt:msx-white:Twitch}",
             "badgeColor": "#643fa6",
