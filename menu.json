@@ -10,19 +10,19 @@
     "items": [
         {
             "title": "Películas Populares",
-            "action": "content:https://9000-firebase-wla1msx1-1762751485473.cluster-r7kbxfo3fnev2vskbkhhphetq6.cloudworkstations.dev/movies-popular.json"
+            "action": "content:https://wla1mx2.netlify.app/api/movies-popular.json"
         },
         {
             "title": "Series Populares",
-            "action": "content:https://9000-firebase-wla1msx1-1762751485473.cluster-r7kbxfo3fnev2vskbkhhphetq6.cloudworkstations.dev/series-popular.json"
+            "action": "content:https://wla1mx2.netlify.app/api/series-popular.json"
         },
         {
             "title": "Buscar",
-            "action": "content:https://9000-firebase-wla1msx1-1762751485473.cluster-r7kbxfo3fnev2vskbkhhphetq6.cloudworkstations.dev/search.json"
+            "action": "content:https://wla1mx2.netlify.app/api/search.json"
         },
         {
             "title": "Próximos Estrenos",
-            "action": "content:https://9000-firebase-wla1msx1-1762751485473.cluster-r7kbxfo3fnev2vskbkhhphetq6.cloudworkstations.dev/movies-upcoming.json"
+            "action": "content:https://wla1mx2.netlify.app/api/movies-upcoming.json"
         }
     ]
 }
