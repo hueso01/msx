@@ -1,58 +1,32 @@
+{
+  "name": "TMDB Movies",
+  "version": "1.0.0",
+  "headline": "The Movie Database",
+  "menu": [
     {
-
       "label": "Películas Populares",
-
       "icon": "trending-up",
-
-
       "data": "content:https://wla1mx2.netlify.app/api/movies-popular.json"
-
     },
-
     {
-
       "label": "En Cartelera",
-
       "icon": "local-movies",
-
-
-      "data": "content:rhttps://wla1mx2.netlify.app/api/series-popular.json"
-
+      "data": "content:https://wla1mx2.netlify.app/api/series-popular.json"
     },
-
     {
-
       "label": "Mejor Valoradas",
-
       "icon": "star",
-
-
       "data": "content:request:interaction:top_rated@https://hueso01.github.io/msx/tmdb-plugin.html"
-
     },
-
     {
-
       "label": "Próximos Estrenos",
-
       "icon": "schedule",
-
-
       "data": "content:request:interaction:upcoming@https://hueso01.github.io/msx/tmdb-plugin.html"
-
     },
-
     {
-
       "label": "Buscar",
-
       "icon": "search",
-
-
       "action": "content:request:interaction:search@https://hueso01.github.io/msx/tmdb-plugin.html"
-
     }
-
   ]
-
 }
