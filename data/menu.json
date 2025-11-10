@@ -1,0 +1,23 @@
+{ 
+    "name": "Content Name",   
+    "version": "1.0.0", 
+    "reference": "http://link.to.menu", 
+    "flag": "content_flag",  
+    "reuse": true,
+    "cache": true,
+    "restore": true,
+    "refocus": 0,
+    "transparent": 0,
+    "style": "default",
+    "logo": "http://link.to.image",   
+    "logoSize": "large",   
+    "headline": "Menu Headline", 
+    "background": "http://link.to.image",   
+    "extension": "Content Extension", 
+    "dictionary": "http://link.to.dictionary",
+    "menu": [],
+    "action": null,
+    "data": null,
+    "ready": null,
+    "options": null    
+}
