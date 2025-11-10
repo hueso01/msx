@@ -1,0 +1,34 @@
+{
+  "name": "TMDB Movies",
+  "version": "1.0.0",
+  "headline": "The Movie Database",
+  "background": "https://www.themoviedb.org/assets/2/v4/misc/404-37e44626d0b18d7b1f01c76f0c21cd41.jpg",
+  "menu": [
+    {
+      "label": "Películas Populares",
+      "icon": "trending-up",
+      "data": "content:request:interaction:popular@http://hueso01.github.io/msx/tmdb-plugin.html"
+    },
+    {
+      "label": "En Cartelera",
+      "icon": "local-movies",
+      "data": "content:request:interaction:now_playing@http://hueso01.github.io/msx/tmdb-plugin.html"
+    },
+    {
+      "label": "Mejor Valoradas",
+      "icon": "star",
+      "data": "content:request:interaction:top_rated@http://hueso01.github.io/msx/tmdb-plugin.html"
+    },
+    {
+      "label": "Próximos Estrenos",
+      "icon": "schedule",
+      "data": "content:request:interaction:upcoming@http://hueso01.github.io/msx/tmdb-plugin.html"
+    },
+    {
+      "label": "Buscar",
+      "icon": "search",
+      "action": "content:request:interaction:search@http://hueso01.github.io/msx/tmdb-plugin.html"
+    }
+  ]
+}
+
