@@ -1,23 +1,18 @@
-{ 
-    "name": "Content Name",   
-    "version": "1.0.0", 
-    "reference": "http://link.to.menu", 
-    "flag": "content_flag",  
-    "reuse": true,
-    "cache": true,
-    "restore": true,
-    "refocus": 0,
-    "transparent": 0,
-    "style": "default",
-    "logo": "http://link.to.image",   
-    "logoSize": "large",   
-    "headline": "Menu Headline", 
-    "background": "http://link.to.image",   
-    "extension": "Content Extension", 
-    "dictionary": "http://link.to.dictionary",
-    "menu": [],
-    "action": null,
-    "data": null,
-    "ready": null,
-    "options": null    
+{
+  "name": "Mi Canal de Videos",
+  "version": "1.0.0",
+  "headline": "Bienvenido",
+  "background": "https://via.placeholder.com/1920x1080/1e1e1e/ffffff?text=Background",
+  "menu": [
+    {
+      "label": "Videos en Vivo",
+      "icon": "live-tv",
+      "data": "http://tuservidor.com/msx/data/videos.json"
+    },
+    {
+      "label": "Acerca de",
+      "icon": "info",
+      "action": "info:Creado con Media Station X"
+    }
+  ]
 }
