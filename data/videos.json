@@ -1,0 +1,47 @@
+{
+  "type": "list",
+  "headline": "Videos en Streaming",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,2,4",
+    "icon": "msx-white-soft:live-tv",
+    "color": "msx-glass"
+  },
+  "items": [
+    {
+      "title": "Stream HLS Principal",
+      "titleFooter": "En vivo ahora",
+      "selection": {
+        "important": true,
+        "action": "info:Presiona OK para reproducir el video"
+      },
+      "image": "https://via.placeholder.com/640x360/ff6b6b/ffffff?text=Video+1",
+      "action": "video:https://tu-servidor.com/streams/video1/playlist.m3u8",
+      "playerLabel": "Stream Principal",
+      "properties": {
+        "button:content:icon": "play-circle-outline",
+        "button:content:label": "Reproducir"
+      }
+    },
+    {
+      "title": "Stream HLS Secundario",
+      "titleFooter": "Calidad HD",
+      "selection": {
+        "important": false
+      },
+      "image": "https://via.placeholder.com/640x360/4ecdc4/ffffff?text=Video+2",
+      "action": "video:https://tu-servidor.com/streams/video2/playlist.m3u8",
+      "playerLabel": "Stream Secundario"
+    },
+    {
+      "title": "Video de Prueba",
+      "titleFooter": "Ejemplo de stream adaptativo",
+      "image": "https://via.placeholder.com/640x360/95e1d3/ffffff?text=Video+3",
+      "action": "video:https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "playerLabel": "Video de Prueba HLS",
+      "properties": {
+        "resume:position": "0"
+      }
+    }
+  ]
+}
