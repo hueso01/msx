@@ -1,0 +1,6 @@
+{    
+    "name": "Test",
+    "version": "1.0.0",
+    "parameter": "menu:http://link.to.menu",
+    "welcome": "none"
+}
