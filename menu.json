@@ -2,7 +2,6 @@
   "name": "TMDB Movies",
   "version": "1.0.0",
   "headline": "The Movie Database",
-  "background": "https://www.themoviedb.org/assets/2/v4/misc/404-37e44626d0b18d7b1f01c76f0c21cd41.jpg",
   "menu": [
     {
       "label": "Películas Populares",
