@@ -1,6 +1,6 @@
 {    
     "name": "Test",
     "version": "1.0.0",
-    "parameter": "menu:http://link.to.menu",
+    "parameter": "menu:https://hueso01.github.io/msx/data/menu.json",
     "welcome": "none"
 }
