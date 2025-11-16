@@ -43,7 +43,7 @@
             "badgeColor": "#643fa6",
             "title": "Example Video",
             "playerLabel": "Twitch - Example Video",
-            "action": "video:plugin:https://9000-idx-studio-1746340084419.cluster-uf6urqn4lned4spwk4xorq6bpo.cloudworkstations.dev/player?mediaId=200875&mediaType=tv&seasonNumber=1&episodeNumber=1&setMsx=true"
+            "action": "video:plugin:https://wlamse1.vercel.app/player?mediaId=200875&mediaType=tv&seasonNumber=1&episodeNumber=1&setMsx=true"
         }, {
             "badge": "{txt:msx-white:Facebook}",
             "badgeColor": "#4767aa",
